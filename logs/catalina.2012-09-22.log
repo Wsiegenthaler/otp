@@ -1,0 +1,314 @@
+Sep 22, 2012 2:22:08 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context []
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/otp-build/OtpBuilder/target/webapps/ROOT does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3957)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4126)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1116)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1214)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:293)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Thread.java:662)
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [] startup failed due to previous errors
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/] has not been started
+Sep 22, 2012 2:22:08 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/manager]
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/otp-build/OtpBuilder/target/webapps/manager does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3957)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4126)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1116)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1214)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:293)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Thread.java:662)
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/manager] startup failed due to previous errors
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/manager] has not been started
+Sep 22, 2012 2:22:08 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/.svn]
+Sep 22, 2012 2:22:08 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/opentripplanner-webapp]
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/otp-build/OtpBuilder/target/webapps/opentripplanner-webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3957)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4126)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1116)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1214)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:293)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Thread.java:662)
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/opentripplanner-webapp] startup failed due to previous errors
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/opentripplanner-webapp] has not been started
+Sep 22, 2012 2:22:08 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/host-manager]
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/otp-build/OtpBuilder/target/webapps/host-manager does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3957)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4126)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1116)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1214)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:293)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Thread.java:662)
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/host-manager] startup failed due to previous errors
+Sep 22, 2012 2:22:08 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/host-manager] has not been started
+Sep 22, 2012 2:22:08 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/opentripplanner-api-webapp]
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/otp-build/OtpBuilder/target/webapps/opentripplanner-api-webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3957)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4126)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1116)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1214)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:293)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Thread.java:662)
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/opentripplanner-api-webapp] startup failed due to previous errors
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/opentripplanner-api-webapp] has not been started
+Sep 22, 2012 2:22:10 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context []
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/] has not been started
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/otp-build/OtpBuilder/target/webapps/ROOT does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3957)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4126)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1116)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1214)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:293)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Thread.java:662)
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [] startup failed due to previous errors
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/] has not been started
+Sep 22, 2012 2:22:10 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/manager]
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/manager] has not been started
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/otp-build/OtpBuilder/target/webapps/manager does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3957)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4126)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1116)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1214)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:293)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Thread.java:662)
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/manager] startup failed due to previous errors
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/manager] has not been started
+Sep 22, 2012 2:22:10 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/.svn]
+Sep 22, 2012 2:22:10 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/opentripplanner-webapp]
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/opentripplanner-webapp] has not been started
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/otp-build/OtpBuilder/target/webapps/opentripplanner-webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3957)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4126)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1116)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1214)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:293)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Thread.java:662)
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/opentripplanner-webapp] startup failed due to previous errors
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/opentripplanner-webapp] has not been started
+Sep 22, 2012 2:22:10 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/host-manager]
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/host-manager] has not been started
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/otp-build/OtpBuilder/target/webapps/host-manager does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3957)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4126)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1116)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1214)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:293)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Thread.java:662)
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/host-manager] startup failed due to previous errors
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/host-manager] has not been started
+Sep 22, 2012 2:22:10 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/opentripplanner-api-webapp]
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/opentripplanner-api-webapp] has not been started
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/otp-build/OtpBuilder/target/webapps/opentripplanner-api-webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3957)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4126)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1116)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1214)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:293)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Thread.java:662)
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/opentripplanner-api-webapp] startup failed due to previous errors
+Sep 22, 2012 2:22:10 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/opentripplanner-api-webapp] has not been started
+Sep 22, 2012 4:44:04 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context []
+Sep 22, 2012 4:44:04 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/] has not been started
+Sep 22, 2012 4:44:04 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/manager]
+Sep 22, 2012 4:44:04 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/manager] has not been started
+Sep 22, 2012 4:44:04 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/.svn]
+Sep 22, 2012 4:44:04 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/opentripplanner-webapp]
+Sep 22, 2012 4:44:04 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/opentripplanner-webapp] has not been started
+Sep 22, 2012 4:44:04 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/host-manager]
+Sep 22, 2012 4:44:04 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/host-manager] has not been started
+Sep 22, 2012 4:44:04 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/opentripplanner-api-webapp]
+Sep 22, 2012 4:44:04 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/opentripplanner-api-webapp] has not been started
+Sep 22, 2012 4:44:05 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error listenerStart
+Sep 22, 2012 4:44:05 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/opentripplanner-api-webapp] startup failed due to previous errors
+Sep 22, 2012 4:44:15 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context []
+Sep 22, 2012 4:44:15 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/manager]
+Sep 22, 2012 4:44:15 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/.svn]
+Sep 22, 2012 4:44:15 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/opentripplanner-webapp]
+Sep 22, 2012 4:44:15 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/host-manager]
+Sep 22, 2012 4:44:15 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/opentripplanner-api-webapp]
+Sep 22, 2012 4:44:15 AM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/opentripplanner-api-webapp] has not been started
+Sep 22, 2012 4:44:16 AM org.apache.catalina.core.StandardContext start
+SEVERE: Error listenerStart
+Sep 22, 2012 4:44:16 AM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/opentripplanner-api-webapp] startup failed due to previous errors
+Sep 22, 2012 5:09:45 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-13599
+Sep 22, 2012 5:09:46 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Sep 22, 2012 5:09:46 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-13599
